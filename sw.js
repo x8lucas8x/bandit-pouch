@@ -26,46 +26,46 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-89cbb6f715e7cb780baa.js"
+    "url": "webpack-runtime-a4add0fe0cf404c150ea.js"
   },
   {
-    "url": "app-aaf38289048d6fd6f36c.js"
+    "url": "app-89c129f6fa6627ed22ae.js"
   },
   {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-15963efc00c604d58c7b.js"
+    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-d0be84e9e956226eea9b.js"
   },
   {
     "url": "index.html",
-    "revision": "7642b1df58b573a141a98d8c13c086c2"
+    "revision": "b43c5244da7e12f93bb85d579aace798"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "03f041aa7e6be60fbc3aa7264a58617e"
+    "revision": "13482114c571dfbf7f307ae7e014c7e0"
   },
   {
-    "url": "1.73914e4a86a952f05314.css"
+    "url": "1.204b8b47ff05841973ed.css"
   },
   {
-    "url": "0.3a4c0a2f44d023e0ccab.css"
+    "url": "0.e19b4838804d61771377.css"
   },
   {
-    "url": "component---src-pages-index-js-e4fdc500f1c262b9e20c.js"
+    "url": "component---src-pages-index-js-01faf602a5bee10a1e27.js"
   },
   {
-    "url": "1-8e659a80750dd56c8bec.js"
+    "url": "1-06ec6de06c8c4d474c4d.js"
   },
   {
-    "url": "2-4758877d2b4955217102.js"
+    "url": "2-5e40d67d35cfb4b68c46.js"
   },
   {
-    "url": "0-2fb130fe53520bb759d2.js"
+    "url": "0-c9be66c044ed83a7cb3f.js"
   },
   {
     "url": "static/d/173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E.json",
     "revision": "c2508676a2f33ea9f1f0bf472997f9a0"
   },
   {
-    "url": "component---src-pages-404-js-374e39ceec01c904f9b4.js"
+    "url": "component---src-pages-404-js-d3240b1f76e1a07a6831.js"
   },
   {
     "url": "static/d/164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E.json",
@@ -83,7 +83,7 @@ self.__precacheManifest = [
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/bandit-pouch/offline-plugin-app-shell-fallback/index.html", {
+workbox.routing.registerNavigationRoute("/offline-plugin-app-shell-fallback/index.html", {
   whitelist: [/^[^?]*([^.?]{5}|\.html)(\?.*)?$/],
   blacklist: [/\?(.+&)?no-cache=1$/],
 });
